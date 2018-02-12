@@ -1,0 +1,119 @@
+Fungsi Direktori yang ada pada root di Linux
+￼
+1. bin (Essential User Binaries)
+Direktori /bin berisikan program binner yang harus ada bila sistem yang dipasang dalam mode single-user. Aplikasi firefoc disimpan di direktori /usr/bin, lalu program penting dan utilitas lainnya seperti shell bash terletak di /bin.
+
+2. boot (Boot Files)
+Direktori /boot berisikan file-file yang dibutukan oleh sistem untuk melakukan booting. File-file seperti GRUB boot loader dan kernel Linux tersimpan di direktori ini.
+
+3. dev
+Pada sistem operasi Linux, setiap perangkat yang terhubung akan dianggap sebagai files, dan di direktori /dev inilah file-file khusus yang mempresentasikan perangkat tersebut disimpan.
+Biasanya sering ditampil direktori seperti /dev/sda1 yang mewakili Drive SATA pertama dalam sistem.
+
+4. etc (Configuration)
+Pada direktori inilah banyak tersimpan file-file konfigurasi yang pada umumnya bisa diedit sendiri menggunakan text editor.
+
+5. home
+Pada direktori ini berisi direktori untuk masing-masing user. Di direktori tersebut umumnya berisi file data-data user dan file konfigurasi user tertentu.
+Setiap user hanya memiliki hak akses atas direktorinya masing-masing. Untuk bisa menggunakan direktori user lain, pengguna harus login dahulu sebagai super user (Root).
+
+6. lib
+Berisi file-file penting yang dibutuhkan oleh file binari dalam direktori /bin dan /sbin. Sedangkan kumpulan file penting yang dibutuhkan oleh binari dalam folder /usr/bin terletak pada /usr/lib.
+
+7. lib64
+Sama dengan /lib akan tetapi dikhususkan untuk eksekusi pada sistem 64bit.
+
+8. lost+found (Recovery)
+Setiap distro linux memiliki direktori lost+found. Fungsinya adalah untuk menempatkan file yang rusak, sehingga user dapat dengan mudah untuk memulihkannya.
+
+9. media (Removable Media)
+Directory /media berisi subdirectory yang mewakili sebuah perangkat removable yang dimasukkan ke komputer.
+
+10. mnt (Mount Point)
+Direktori /mnt merupakan tempat untuk user nge-mount filesystem untuk menggunakannya sementara.
+
+11. opt (Optional Packages)
+Directory ini biasanya berisi paket software yang diinstall sendiri. Biasanya digunakan oleh software diluar repository tersebut.
+
+12. proc
+Direktori ini hampir mirip dengan direktory /dev karena tidak berisi file-file standar, melainkan berisi file-file khusus yang mempresentasikan sistem dan proses informasi.
+
+13. root (Root Home Directory)
+Direktori ini merupakan Home-nya user Root. Bukan terletak di /home/root, melainkan folder tersendiri, yaitu di /root. Ini berbeda dengan /, yang merupakan sistem directori utama.
+
+14. run
+File yang berisi informasi tentang semua proses yang berjalan dari pertama kali booting.
+
+15. sbin
+Direktori /sbin mirip dengan /bin. Namun file-file yang berada di dalam direktori ini umum dioperasikan oleh Root.
+
+16. snap
+Direktori yang berisi informasi tentang paket snaps(snap package) yang terinstall pada system.
+
+17. srv
+Direktori ini digunakan sebagai tempat data dari sebuah layanan yang diberikan oleh sistem. Misal, jika user menggunakan server Apache untuk service web, user bisa menyimpan file-file website tersebut di sebuah direktori di dalam /srv.
+
+18. sys
+Direktori special yang memuatkan informasi mengenai hard disk seperti yang dilihat melalui Linux.
+
+19. tmp
+Tempat untuk menyimpan sementara file-file Linux. Biasanya file yang disimpan dalam directory ini akan terhapus setiap kalu me-restart komputer.
+
+20. usr
+Berisi aplikasi dan file yang digunakan oleh pengguna, sebagai lawan aplikasi dan file yang digunakan oleh sistem. Misalnya, aplikasi non-essensial yang terletak di dalam direktori /usr/bin bukan pada /bin.
+
+21. vagrant
+Berisi vagrant file yang sudah diinstall di sistem.
+
+22. var
+Biasanya berisi informasi seperti log yang berada dalam /var/log.
+
+
+Fungsi Direktori yang ada pada root di Mac
+￼
+1. Applications
+Direktori ini adalah tempat aplikasi yang terinstal pada Mac disimpan.
+
+2. Library
+Berisi file yang diperlukan agar sistem operasi berfungsi dengan baik, termasuk didalamnya berisi Settings, Preference, dan lainnya.
+
+3. Network
+Berisi jaringan dari perangkat, server, dan library.
+
+4. System
+Berisi kumpulan file, library, preference, yang menjalankan fungsi yang penting di Mac.
+
+5. Users
+Berisi semua akun users di Mac dengan pengaturan masing-masing user.
+
+6. Volumes
+Berisi semua perangkat yang terpasang, baik virtual maupun nyata, seperti hard disk, CD, DVD, dll.
+
+7. bin
+Berisi file dan program yang diperlukan untuk menjalankan booting sistem operasi sehingga sistem dapat berjalan dengan baik.
+
+8. cores
+Tempt OS X menimpan Core Dumps, Haiti file yang ditujukan until pengembang until memecahkan masala dan mendiagnosa kesalahan panda pernagkat lunak mereka.
+9. dev
+Berisi perangkat file, semua file yang mewakili perangkat seperti keyboard, mouse, trackpad, dll.
+
+10. etc
+Mesin konfigurasi sistem lokal yang menghandle administratif, konfigurasi, dan file sistem lainnya.
+
+11. home
+Folder yang berisi semua file milik user.
+
+12. private
+Menyimpan beberapa file yang tersembunyi dari sistem.
+
+13. sbin
+Berisi berkas biner penting, berisi utilitas untuk administrasi sistem.
+
+14. tmp
+Berisi file sementara, chace, dll.
+
+15. usr
+Berisi sebagian besar utilitas dan aplikasi pengguna.
+
+16. var
+Berisi file yang isinya berubah saat sistem operasi berjalan.
